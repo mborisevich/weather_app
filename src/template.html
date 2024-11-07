@@ -3,10 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atom Todo</title>
+    <title>Weather App</title>
     <link rel="stylesheet" src="style.css"></link>
 </head>
 <body>
+   
+    <header>Weather App</header>
+    <form>
+        <fieldset>
+        <label for="location">City</label>
+        <input type="search" id="location" name="location">
+        <label for="units">Units</label>
+        <input id="units" name="units" list="unit-types">
+        <button>Check weather</button>
+        <datalist id="unit-types">
+            <option value="Metric"></option>
+            <option value="US"></option>
+        </datalist>
+    </fieldset>
+    </form>
+    <div class="container">
+        <!-- <div class="current-weather">
+            <img class="giphy" src="weather.jpg">
+            <div class="weather-info">
+                <div class="info-item">
+                    <img src="clock.svg">
+                    <p>Time:</p>
+                    <p class="value">12:00</p>
+                </div>
+                <div class="info-item">
+                    <img src="thermometer.svg">
+                    <p>Temperature: </p>
+                    <p class="value">20 degrees</p>
+                </div>
+                <div class="info-item">
+                    <img src="weather-cloudy.svg">
+                    <p>Weather conditions</p>
+                    <p class="value">Cloudy</p>
+                </div>
+                <div class="info-item">
+                    <img src="sun-wireless.svg">
+                    <p>UV Index:</p>
+                    <p class="value">3</p>
+                </div>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Today</p>
+                    <p class="date">05/11/2024</p>
+                </div>
+                <img src="./weather-sunny.svg">
+                <p>Sunny</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Wednesday</p>
+                    <p class="date">06/11/2024</p>
+                </div>
+                <img src="./weather-rainy.svg">
+                <p>Rainy</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Thursday</p>
+                    <p class="date">07/11/2024</p>
+                </div>
+                <img src="./clouds.svg">
+                <p>Cloudy</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Friday</p>
+                    <p class="date">08/11/2024</p>
+                </div>
+                <img src="weather-sunny.svg">
+                <p>Sunny</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Saturday</p>
+                    <p class="date">09/11/2024</p>
+                </div>
+                <img src="weather-sunny.svg">
+                <p>Sunny</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Sunday</p>
+                    <p class="date">10/11/2024</p>
+                </div>
+                <img src="./clouds.svg">
+                <p>Cloudy</p>
+            </div>
+            <div class="forecast-item">
+                <div class="day">
+                    <p>Monday</p>
+                    <p class="date">11/11/2024</p>
+                </div>
+                <img src="./clouds.svg">
+                <p>Cloudy</p>
+            </div> -->
+        </div>
 </body>
-<script src="./index.js"></script>
 </html>
